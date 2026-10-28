@@ -34,9 +34,9 @@ My work combined shop-floor improvement and operational technology rollout. I co
 - Analyzed shear stresses in mounting tabs and bolts, targeting a **factor of safety ≥ 2** under peak braking loads and an estimated **20% reduction in failure risk**.
 - Used **ANSYS Mechanical** for yielding and fatigue analysis of a custom EBS chamber operating at **140 psi**; project estimates indicated up to **25% longer fatigue life** and **$90 lower manufacturing cost per redesigned part**.
 
-**University of Toronto Consulting Association (UTCA) — Consulting Project, CIBC Client**
+**University of Toronto Consulting Association (UTCA) — Consulting Project, banking-sector Client**
 
-Worked on a UTCA consulting engagement for **CIBC**. Specific deliverables and analysis can be added once confirmed; this portfolio does not imply unverified project outcomes.
+Worked on a UTCA consulting engagement for **banking-sector**. Specific deliverables and analysis can be added once confirmed; this portfolio does not imply unverified project outcomes.
 
 **MIE444 Mechatronics Rover — University of Toronto**
 
