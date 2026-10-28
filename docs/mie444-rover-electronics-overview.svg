@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760">
+<rect width="1280" height="760" fill="#f8fafc"/>
+<text x="56" y="68" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#12243a">MIE444 Omni-Wheel Rover — Electronics Overview</text>
+<text x="56" y="102" font-family="Arial,sans-serif" font-size="17" fill="#52647b">Simplified component-level diagram based on the KiCad project · Not a pin-by-pin electrical schematic</text>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6" fill="none" stroke="#64829e" stroke-width="1.6"/></marker></defs>
+<rect x="467" y="258" rx="18" width="343" height="225" fill="#123d59"/>
+<text x="638" y="314" fill="white" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700">Arduino Mega 2560</text>
+<text x="638" y="351" fill="#d5e9f5" text-anchor="middle" font-family="Arial" font-size="17">Main controller</text>
+<text x="638" y="380" fill="#d5e9f5" text-anchor="middle" font-family="Arial" font-size="15">PWM · digital I/O · I²C · UART</text>
+<text x="638" y="410" fill="#d5e9f5" text-anchor="middle" font-family="Arial" font-size="15">Motor, sensor &amp; servo control</text>
+<g font-family="Arial" text-anchor="middle">
+<rect x="56" y="180" width="292" height="130" rx="14" fill="#e6f0fa" stroke="#9bc0dd" stroke-width="2"/>
+<text x="202" y="222" font-size="21" font-weight="700" fill="#193d5d">2 × L298N drivers</text>
+<text x="202" y="252" font-size="16" fill="#375b77">4 DC drive motors</text><text x="202" y="278" font-size="15" fill="#375b77">4-wheel omni drive</text>
+<rect x="56" y="395" width="292" height="130" rx="14" fill="#e6f0fa" stroke="#9bc0dd" stroke-width="2"/>
+<text x="202" y="437" font-size="21" font-weight="700" fill="#193d5d">Motor encoders</text>
+<text x="202" y="468" font-size="16" fill="#375b77">Wheel feedback signals</text>
+<rect x="930" y="160" width="294" height="120" rx="14" fill="#e9f4ef" stroke="#91c6ad" stroke-width="2"/>
+<text x="1077" y="201" font-size="21" font-weight="700" fill="#1e5540">6 × VL53L0X ToF</text>
+<text x="1077" y="231" font-size="16" fill="#426c58">I²C ranging sensors</text>
+<rect x="930" y="304" width="294" height="106" rx="14" fill="#e9f4ef" stroke="#91c6ad" stroke-width="2"/>
+<text x="1077" y="344" font-size="21" font-weight="700" fill="#1e5540">MPU6050 IMU</text><text x="1077" y="373" font-size="16" fill="#426c58">I²C motion sensing</text>
+<rect x="930" y="436" width="294" height="106" rx="14" fill="#e9f4ef" stroke="#91c6ad" stroke-width="2"/>
+<text x="1077" y="476" font-size="21" font-weight="700" fill="#1e5540">HC-05 Bluetooth</text><text x="1077" y="505" font-size="16" fill="#426c58">UART communication</text>
+<rect x="490" y="548" width="298" height="98" rx="14" fill="#fff0db" stroke="#d9ad72" stroke-width="2"/>
+<text x="639" y="586" font-size="21" font-weight="700" fill="#7d4c1c">SG90 servos</text><text x="639" y="614" font-size="16" fill="#906b47">Arm &amp; gripper actuation</text>
+<rect x="56" y="565" width="292" height="81" rx="14" fill="#fff0db" stroke="#d9ad72" stroke-width="2"/>
+<text x="202" y="600" font-size="20" font-weight="700" fill="#7d4c1c">Battery &amp; converters</text><text x="202" y="625" font-size="15" fill="#906b47">Power distribution</text>
+</g>
+<g stroke="#64829e" stroke-width="3.5" fill="none" marker-end="url(#arrow)">
+<path d="M467 325 L348 245"/><path d="M467 415 L348 460"/>
+<path d="M810 312 L930 218"/><path d="M810 360 L930 355"/><path d="M810 423 L930 485"/>
+<path d="M638 483 L638 548"/><path d="M348 602 L420 602 L420 454 L467 454"/>
+</g>
+<text x="56" y="715" font-family="Arial" font-size="16" fill="#64748b">Concept diagram only. Refer to the original .kicad_sch for exact electrical connections, pin numbers, and power checks.</text>
+</svg>
