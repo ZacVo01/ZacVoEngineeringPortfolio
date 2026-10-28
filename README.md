@@ -28,11 +28,21 @@ If you're interested in the engineering behind a project, open its detail page a
 
 My work combined shop-floor improvement and operational technology rollout. I coordinated stakeholder feedback, workflow layouts, feature selection and prioritization, user onboarding, training and troubleshooting for PowerApps-based tools supporting approximately 300 shop-floor users. Developers were responsible for implementing the application code. I also contributed to 5S, process mapping, tier management and continuous-improvement projects.
 
+**University of Toronto Formula Racing (UTFR) — Internal FEA / EBS Design**
+
+- Designed mounting options for pneumatic Emergency Braking System (EBS) pistons with a required **10 mm clearance** between the housing and pistons.
+- Analyzed shear stresses in mounting tabs and bolts, targeting a **factor of safety ≥ 2** under peak braking loads and an estimated **20% reduction in failure risk**.
+- Used **ANSYS Mechanical** for yielding and fatigue analysis of a custom EBS chamber operating at **140 psi**; project estimates indicated up to **25% longer fatigue life** and **$90 lower manufacturing cost per redesigned part**.
+
+**University of Toronto Consulting Association (UTCA) — Consulting Project, banking-sector Client**
+
+Worked on a UTCA consulting engagement for **banking-sector**. Specific deliverables and analysis can be added once confirmed; this portfolio does not imply unverified project outcomes.
+
 **MIE444 Mechatronics Rover — University of Toronto**
 
 Worked on a four-wheel omni-directional rover integrating an Arduino Mega, DC motor control, encoders, Bluetooth communication and distance sensing. This is ongoing project context, not a claim that all planned functions were successfully implemented or verified. A dedicated technical repository/page can be added when hardware, code and test artifacts are ready to share.
 
-These are newer experiences; they have **not** been inserted into the existing website's project pages in this documentation-only update.
+These experiences are also summarized in the website's resume section. Existing project pages remain intact.
 
 ## Repository layout
 
